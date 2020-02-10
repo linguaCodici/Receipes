@@ -6,8 +6,8 @@ import { Injectable } from '@angular/core';
 export class DataService {
 
   private list = [ {
-    name: 'Victorique Pang',
-    desc: 'Amazing Chocolate Cake Recipe',
+    name: 'Victorique',
+    desc: 'Amazing Chocolate Mousse Cake Recipe',
     link: 'https://www.bonappetit.com/test-kitchen/how-to/article/dreamy-chocolate-mousse'
   }]
 
