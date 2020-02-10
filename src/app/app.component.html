@@ -2,6 +2,6 @@
   <p class="lead" style="font-weight: 200; font-size: 300%;">WTG Cookbook</p>
   <!-- Content here -->
   <div class="row mt-2" *ngFor="let item of list">
-    <app-card class="w-50" name="item.name" desc="item.desc" link="item.link"></app-card>
+    <app-card class="w-50" [name]="item.name" [desc]="item.desc" [link]="item.link"></app-card>
   </div>
 </div>
